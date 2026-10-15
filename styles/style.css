@@ -203,9 +203,17 @@
   background-repeat: no-repeat;
 }
 
-.card_type_film    { background-image: url("../images/card-lot-01.jpg"); }
-.card_type_book    { background-image: url("../images/card-lot-02.jpg"); }
-.card_type_picture { background-image: url("../images/card-lot-03.jpg"); }
+.card_type_film {
+  background-image: url("../images/card-lot-01.jpg");
+}
+
+.card_type_book {
+  background-image: url("../images/card-lot-02.jpg");
+}
+
+.card_type_picture {
+  background-image: url("../images/card-lot-03.jpg");
+}
 
 .card__title,
 .card__text {
@@ -241,22 +249,22 @@
 }
 
 .about {
-  position: relative;    
-  height: 595px;        
+  position: relative;
+  height: 595px;
   margin: 120px 24px 180px;
 }
 
 .about__column:first-child {
   position: absolute;
-  top: 35px;            
-  left: 47px;        
+  top: 35px;
+  left: 47px;
   width: 240px;
 }
 
 .about__column:last-child {
   position: absolute;
-  top: 134px;      
-  left: 359px;     
+  top: 134px;
+  left: 359px;
   width: 693px;
 }
 
